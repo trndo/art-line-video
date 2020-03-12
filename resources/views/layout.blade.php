@@ -65,7 +65,8 @@
 </head>
 <body>
     @yield ('content')
-
+        @section()
+        @endsection
     @yield ('js')
 </body>
 </html>
