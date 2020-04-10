@@ -4,66 +4,35 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Art-Line</title>
+    <title>Art-Line @yield('title')</title>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet" >
+
+    {{--    <link href="{{ asset('css/layout.css')}}" rel="stylesheet">--}}
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/index.css">
     @yield ('css')
     <!-- Styles -->
     <style>
-        html, body {
-            background-color: #fff;
-            color: #636b6f;
-            font-family: 'Nunito', sans-serif;
-            font-weight: 200;
-            height: 100vh;
-            margin: 0;
-        }
-
-        .full-height {
-            height: 100vh;
-        }
-
-        .flex-center {
-            align-items: center;
-            display: flex;
-            justify-content: center;
-        }
-
-        .position-ref {
-            position: relative;
-        }
-
-        .top-right {
-            position: absolute;
-            right: 10px;
-            top: 18px;
-        }
-
-        .content {
-            text-align: center;
-        }
-
-        .title {
-            font-size: 84px;
-        }
-
-        .links > a {
-            color: #636b6f;
-            padding: 0 25px;
-            font-size: 13px;
-            font-weight: 600;
-            letter-spacing: .1rem;
-            text-decoration: none;
-            text-transform: uppercase;
-        }
-
-        .m-b-md {
-            margin-bottom: 30px;
-        }
     </style>
 </head>
 <body>
+    @section('header')
+        <div class="header">
+            <img class="logo-img" src="/css/logo.png" alt="logo">
+            <ul class="main-nav">
+                <li>Видеосъемка<i class="fas fa-angle-down"></i></li>
+                <li>Аренда<i class="fas fa-angle-down"></i></li>
+                <li>Новости</li>
+            </ul>
+            <ul class="side-nav">
+                <li><a href="/contacts">Контакты</a></li>
+                <li><a href="#">Отзывы</a></li>
+            </ul>
+        </div>
     @yield ('content')
     @yield ('js')
 </body>
