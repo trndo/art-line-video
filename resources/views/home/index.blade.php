@@ -60,7 +60,71 @@
                 </ul>
             </div>
         </div>
-        <h1>header</h1>
+        <div>
+            <h2 class="about-us-header">О нас</h2>
+            <div class="about-us">
+                <div class="about-us-text-section">
+                    <pre>
+Работаем в сфере видео продакшена и пост-продакшена.
+Делаем рекламное видео, музыкальные клипы,
+корпоративные фильмы.
+
+Обладаем профессиональным видеооборудованием.
+Имеется своя фото и видео студия. - Видео для
+продвижения вашего бизнеса! - Разработаем идею -
+Напишем сценарий - Видеостудия Artline-Video, это
+продакшн с многолетним опытом, сильной творческой
+командой.
+                    </pre>
+                    <h2>Услуги</h2>
+                </div>
+                <div class="about-us-photo-section">
+                    <div class="about-us-photo1"></div>
+                    <div class="about-us-photo2"></div>
+                </div>
+            </div>
+        </div>
+        <div class="services">
+            <ul class="services-list">
+                <li>Видеосъемка</li>
+                <li>Аренда</li>
+            </ul>
+            <div class="services-cards">
+                <div class="services-card1">
+                    <div class="yellow-background">
+                        <div class="vl1">
+                            <div class="vl2">
+                                <div class="vl3"></div>
+                            </div>
+                        </div>
+                        <p>В компании, где работает большо
+                            <br>
+                            коллектив, часто не хватает объединения и
+                            <br> дружбы. Ведь очень сложно найти что-то
+                            <br> общее между столь разными людьми.
+                        </p>
+                        <h2>Корпоративное видео</h2>
+                    </div>
+                    <div class="services-card1-img-background"></div>
+                </div>
+                <div class="services-card2 overlay">
+                    <div class="vl1">
+                        <div class="vl2">
+                            <div class="vl3"></div>
+                        </div>
+                    </div>
+                    <h2>Рекламная съемка</h2>
+                </div>
+                <div class="services-card3 overlay">
+                    <div class="vl1">
+                        <div class="vl2">
+                            <div class="vl3"></div>
+                        </div>
+                    </div>
+                    <h2>Съмка за кадром</h2>
+                </div>
+            </div>
+        </div>
     </div>
 
 @endsection
