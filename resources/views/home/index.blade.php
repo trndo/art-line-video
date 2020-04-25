@@ -125,6 +125,29 @@
                 </div>
             </div>
         </div>
+        <div class="our-works">
+            <div class="our-works-flex">
+                <h1>Наши работы</h1>
+                <div>
+                    <button><i class="far fa-arrow-alt-circle-left"></i></button>
+                    <button><i class="far fa-arrow-alt-circle-right"></i></button>
+                </div>
+            </div>
+            <div class="video" width="660" height="400"></div>
+        </div>
+        <div class="clients">
+            <div class="header-clients">
+                <div class="header-clients-line"></div>
+                <h1>Наши клиенты</h1>
+            </div>
+            <div class="body-clients">
+                <a href="#"><img src="css/clients-img/pwc.png" alt="pwc"></a>
+                <a href="#"> <img src="css/clients-img/abbyy.png" alt="abbyy"></a>
+                <a href="#"><img src="css/clients-img/intel.png" alt="intel"></a>
+                <a href="#"> <img src="css/clients-img/ag.png" alt="ag"></a>
+                <a href="#">  <img src="css/clients-img/nutella.png" alt="nutella"></a>
+            </div>
+        </div>
     </div>
 
 @endsection

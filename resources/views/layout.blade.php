@@ -33,7 +33,35 @@
                 <li><a href="#">Отзывы</a></li>
             </ul>
         </div>
+
     @yield ('content')
+
+    @section('footer')
+        <div class="footer">
+            <div class="left-footer">
+                <img src="/css/logo.png" alt="logo">
+                <ul>
+                    <li>Видеосьемка</li>
+                    <li>Аренда</li>
+                    <li>Новости</li>
+                </ul>
+            </div>
+            <div class="right-footer">
+                <p><strong>Event service &Video Production.<br>Artline Video</strong></p>
+               <div class="ul-flex">
+                    <ul class="media-icons">
+                        <li class="facebook"><a href="#"><img src="/css/facebook.png"></a></li>
+                        <li class="instagram"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                    <ul class="information">
+                        <li><a href="#">info@artline-video.com.ua</a></li>
+                        <li>+38 (067)112-15-14</li>
+                        <li>+38 (093)011-52-73</li>
+                    </ul>
+               </div>
+            </div>
+        </div>
+
     @yield ('js')
 </body>
 </html>
