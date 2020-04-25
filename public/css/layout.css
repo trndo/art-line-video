@@ -64,3 +64,90 @@
 .header p {
     margin:auto;
 }
+
+/*FOOTER*/
+
+.footer{
+    display: flex;
+    height: 30vh;
+    width: 100vw;
+    max-width: 100%;
+    background-color: #F6C700;
+    color: #3C3C3C;
+}
+
+
+.left-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 35px;
+    width: 35vw;
+
+}
+
+.left-footer img {
+    height: 40px;
+    width: 208px;
+    margin-left: 17vw;
+}
+
+.left-footer ul{
+    display: flex;
+    list-style: none;
+    margin-left: 20px;
+}
+
+.left-footer ul li{
+    margin-right: 35px;
+}
+
+.right-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-left: 1px solid #3C3C3C;
+    width: 65vw;
+}
+
+.right-footer p{
+    margin-top: 45px;
+    margin-left: 20px;
+}
+
+.ul-flex{
+    display: flex;
+    margin-left: 170px;
+
+}
+
+.right-footer ul {
+    display: flex;
+    list-style: none;
+}
+
+.right-footer .information li{
+    margin-left: 35px;
+}
+
+.right-footer .media-icons li{
+    margin-right: 25px;
+}
+
+.right-footer ul li a{
+    text-decoration: none;
+    color: #3C3C3C;
+}
+.facebook img{
+   width: 12px;
+}
+
+
+.right-footer ul li .instagram{
+    margin-right: 50px;
+}
+
+.instagram i{
+    font-size: 20px;
+}
+
