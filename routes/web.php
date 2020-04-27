@@ -12,4 +12,8 @@
 */
 
 Route::get('/', 'HomeController@index')->name('home');
+Route::get('/article', 'ArticleController@index')->name('article');
+Route::get('/category', 'CategoryController@index')->name('category');
+Route::get('/contacts', 'ContactsController@index')->name('contacts');
+Route::get('/review', 'ReviewController@index')->name('review');
 
