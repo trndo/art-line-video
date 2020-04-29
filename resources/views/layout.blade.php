@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/contacts.css">
+    <link rel="stylesheet" href="css/review.css">
     @yield ('css')
     <!-- Styles -->
     <style>
@@ -23,15 +24,15 @@
 <body>
     @section('header')
         <div class="header">
-            <img class="logo-img" src="/css/logo.png" alt="logo">
-            <ul class="main-nav">
+            <a href="/"><img class="logo-img" src="/css/logo.png" alt="logo"></a>
+            <ul id="main-nav">
                 <li>Видеосъемка<i class="fas fa-angle-down"></i></li>
                 <li>Аренда<i class="fas fa-angle-down"></i></li>
                 <li>Новости</li>
             </ul>
             <ul class="side-nav">
                 <li><a href="/contacts">Контакты</a></li>
-                <li><a href="#">Отзывы</a></li>
+                <li><a href="/review">Отзывы</a></li>
             </ul>
         </div>
 
