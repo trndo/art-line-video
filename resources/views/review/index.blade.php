@@ -80,6 +80,9 @@
         </div>
     </div>
     <script type="text/javascript">
-        document.getElementById("main-nav").style.color="#3c3c3c";
+        const x = document.getElementsByClassName("change-color");
+        for (let i = 0; i<x.length; i++) {
+            x[i].style.color="#3c3c3c";
+        }
     </script>
 @endsection

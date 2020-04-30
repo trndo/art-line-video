@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/contacts.css">
     <link rel="stylesheet" href="css/review.css">
+    <link rel="stylesheet" href="css/article.css">
     @yield ('css')
     <!-- Styles -->
     <style>
@@ -26,13 +27,13 @@
         <div class="header">
             <a href="/"><img class="logo-img" src="/css/logo.png" alt="logo"></a>
             <ul id="main-nav">
-                <li>Видеосъемка<i class="fas fa-angle-down"></i></li>
-                <li>Аренда<i class="fas fa-angle-down"></i></li>
-                <li>Новости</li>
+                <li><a href="#" class="change-color">Видеосъемка<i class="fas fa-angle-down"></i></a></li>
+                <li><a href="{{url('category')}}" class="change-color">Аренда<i class="fas fa-angle-down"></i></a</li>
+                <li><a href="{{url('article')}}" class="change-color">Новости</a></li>
             </ul>
             <ul class="side-nav">
-                <li><a href="/contacts">Контакты</a></li>
-                <li><a href="/review">Отзывы</a></li>
+                <li><a href="{{url('contacts')}}">Контакты</a></li>
+                <li><a href="{{url('review')}}">Отзывы</a></li>
             </ul>
         </div>
 
