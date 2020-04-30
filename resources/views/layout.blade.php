@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/contacts.css">
     <link rel="stylesheet" href="css/review.css">
     <link rel="stylesheet" href="css/article.css">
+    <link rel="stylesheet" href="css/rent.css">
     @yield ('css')
     <!-- Styles -->
     <style>
