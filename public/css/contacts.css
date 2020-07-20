@@ -1,0 +1,128 @@
+.main-frame-full{
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    /*background-image: url("https://images.unsplash.com/photo-1569513754293-cef7244bfafd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");*/
+    background-image: url("/css/contacts-background.png");
+    background-size: cover;
+}
+
+.flex-line{
+    display: flex;
+    height: 25vh;
+    border-bottom: 3px solid  rgba(188, 188, 188, 0.3);
+}
+
+.flex-text {
+    display: flex;
+    height: 75vh;
+}
+
+.flex-text h1{
+    color: #ffffff;
+    font-size: 4vw;
+    margin-top: 120px;
+    margin-left: 20px;
+    z-index: 3;
+}
+
+.vertical-line{
+    width: 18vw;
+    border-right: 3px solid  rgba(188, 188, 188, 0.3);
+}
+
+.contacts-flex{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    height: 75vh;
+    max-width: 100%;
+    margin-top: -25vh;
+}
+
+.contact-box{
+    position: absolute;
+    width: 48vw;
+    height: 63vh;
+    background-color: #B99E2E;
+    z-index: 4;
+}
+
+.contact-box ul {
+    list-style: none;
+    margin-left: 5vw;
+    font-size: 1.6vw;
+}
+
+.contact-box ul:first-child{
+    margin-top: 10vh;
+}
+
+.contact-box ul:nth-child(2) li{
+    margin-top: 30px;
+}
+
+.phone-number{
+    font-size: 2.4vw;
+}
+
+.contact-box ul li{
+    color: #ffffff;
+}
+
+.contact-box ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+.map{
+    position: relative;
+
+}
+
+.map iframe{
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+}
+
+.pos{
+    position: absolute;
+    margin-top: -40vh;
+}
+
+.pa{
+    position: absolute;
+}
+
+.place-card{
+    display: flex;
+    justify-content: space-between;
+    width: 370px;
+
+}
+
+.place-card .place-img{
+    width: 300px;
+    height: 180px;
+    background-image: url("/css/place-img.png");
+    background-size: cover;
+}
+
+.place-text{
+    position: absolute;
+    height: 55px;
+    width: 100%;
+    background-color: #3C3C3C;
+    color: #ffffff;
+    margin-top: -55px;
+    z-index: 1;
+}
+
+.place-text p{
+    margin-top: 8px;
+    margin-left: 160px;
+
+}

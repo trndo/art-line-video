@@ -1,0 +1,126 @@
+
+.rent{
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    background-image: url("/css/rent-img.png");
+    background-size: cover;
+
+}
+
+.rent-line-flex{
+    display: flex;
+    height: 25vh;
+    border-bottom: 3px solid  rgba(60, 60, 60, 0.3);
+}
+
+.rent-line-vertical{
+    width: 18vw;
+    height: 100vh;
+    border-right: 3px solid  rgba(60, 60, 60, 0.3);
+}
+
+.rent-text-flex-container{
+    display: flex;
+}
+
+.rent-text{
+    color: #ffffff;
+    margin-top: 60px;
+    font-size: 1.8vw;
+}
+
+.rent-cards{
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 15vw;
+    margin-top: -15vh;
+    height: 260vh;
+}
+
+.rent-cards h2{
+    font-size: 3vw;
+}
+
+.rent-card1{
+    display: flex;
+    height: 55vh;
+    width: 78vw;
+}
+
+.rent-card1-img-background{
+    background-image: url("https://images.unsplash.com/photo-1512025316832-8658f04f8a83?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1502&q=80");
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: 120%;
+    height: 100%;
+    width: 60%;
+}
+
+
+.rent-card1 h2{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 125px;
+    z-index: 2;
+}
+
+.yellow-background{
+    display: flex;
+    background-color: #B99E2E;
+    height: 100%;
+    width: 40%;
+    z-index: 1;
+}
+
+.rent-card2{
+    display: flex;
+    height: 55vh;
+    width: 78vw;
+    background-image: url("https://images.unsplash.com/photo-1457551859869-d4b7ab27184c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+    background-repeat: no-repeat;
+    background-position: 0 47%;
+    background-size: cover;
+}
+
+.rent-card2 h2{
+    margin-left: 90px;
+    margin-top: 250px;
+    z-index: 2;
+}
+
+.rent-card3{
+     display: flex;
+     height: 55vh;
+     width: 78vw;
+     background-image: url("https://images.unsplash.com/photo-1490971774356-7fac993cc438?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: 50% 30%;
+ }
+
+.rent-card3 h2{
+    margin-left: 90px;
+    margin-top: 250px;
+    z-index: 2;
+}
+
+.rent-card4{
+    display: flex;
+    height: 55vh;
+    width: 78vw;
+    background-image: url("https://images.unsplash.com/photo-1500627208551-d61d25c348e4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 120px;
+    background-position: 50% 30%;
+}
+
+.rent-card4 h2{
+    margin-left: 90px;
+    margin-top: 250px;
+    z-index: 2;
+}

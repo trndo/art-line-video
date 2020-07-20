@@ -1,6 +1,6 @@
 @extends ('layout')
 
-@section('title', '| About')
+@section('title', '| Main')
 
 @section ('content')
     <div class="main-frame">
@@ -133,7 +133,7 @@
                     <button><i class="far fa-arrow-alt-circle-right"></i></button>
                 </div>
             </div>
-            <div class="video" width="660" height="400"></div>
+            <iframe class="video" width="660" height="400" src="https://www.youtube.com/embed/wFQsrX7tkNE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="clients">
             <div class="header-clients">
