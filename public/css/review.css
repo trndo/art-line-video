@@ -1,0 +1,76 @@
+
+.review-line-flex{
+    display: flex;
+    height: 25vh;
+    border-bottom: 3px solid  rgba(60, 60, 60, 0.2);
+}
+
+.review-line-vertical{
+    width: 18vw;
+    border-right: 3px solid  rgba(60, 60, 60, 0.6);
+}
+
+.review-text-flex{
+    display: flex;
+}
+
+.review-text{
+    margin-left: 60px;
+    color: #000000;
+    margin-bottom: 80px;
+}
+
+.review-text h1{
+    margin-top: 80px;
+    font-size: 2.6vw;
+    color: #3C3C3C;
+}
+
+.review-text-and-pagination{
+    max-width: 70vw;
+}
+
+.review-text-box-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.review-text-box{
+    width: 355px;
+    height: 173px;
+    margin-right: 70px;
+    margin-top: 70px;
+}
+
+.name-date-flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.review-pagination-container{
+    margin-top: 70px;
+    margin-bottom: 30px;
+    margin-right: 10vw;
+    display: flex;
+     max-width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.review-pagination-line{
+    width: 150px;
+    height: 1px;
+    border: 1px solid #bcbcbc;
+}
+
+.current-page{
+    font-size: 28px;
+}
+
+.review-pagination-button button{
+    border: none;
+    font-size: 30px;
+    margin-right: 50px;
+    background-color: #ffffff;
+}

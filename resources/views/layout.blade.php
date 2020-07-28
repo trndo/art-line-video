@@ -4,67 +4,68 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel</title>
+    <title>Art-Line @yield('title')</title>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet" >
+
+    {{--    <link href="{{ asset('css/layout.css')}}" rel="stylesheet">--}}
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/contacts.css">
+    <link rel="stylesheet" href="css/review.css">
+    <link rel="stylesheet" href="css/article.css">
+    <link rel="stylesheet" href="css/rent.css">
     @yield ('css')
     <!-- Styles -->
     <style>
-        html, body {
-            background-color: #fff;
-            color: #636b6f;
-            font-family: 'Nunito', sans-serif;
-            font-weight: 200;
-            height: 100vh;
-            margin: 0;
-        }
-
-        .full-height {
-            height: 100vh;
-        }
-
-        .flex-center {
-            align-items: center;
-            display: flex;
-            justify-content: center;
-        }
-
-        .position-ref {
-            position: relative;
-        }
-
-        .top-right {
-            position: absolute;
-            right: 10px;
-            top: 18px;
-        }
-
-        .content {
-            text-align: center;
-        }
-
-        .title {
-            font-size: 84px;
-        }
-
-        .links > a {
-            color: #636b6f;
-            padding: 0 25px;
-            font-size: 13px;
-            font-weight: 600;
-            letter-spacing: .1rem;
-            text-decoration: none;
-            text-transform: uppercase;
-        }
-
-        .m-b-md {
-            margin-bottom: 30px;
-        }
     </style>
 </head>
 <body>
+    @section('header')
+        <div class="header">
+            <a href="/"><img class="logo-img" src="/css/logo.png" alt="logo"></a>
+            <ul id="main-nav">
+                <li><a href="#" class="change-color">Видеосъемка<i class="fas fa-angle-down"></i></a></li>
+                <li><a href="{{url('category')}}" class="change-color">Аренда<i class="fas fa-angle-down"></i></a</li>
+                <li><a href="{{url('article')}}" class="change-color">Новости</a></li>
+            </ul>
+            <ul class="side-nav">
+                <li><a href="{{url('contacts')}}">Контакты</a></li>
+                <li><a href="{{url('review')}}">Отзывы</a></li>
+            </ul>
+        </div>
+
     @yield ('content')
+
+    @section('footer')
+        <div class="footer">
+            <div class="left-footer">
+                <img src="/css/logo.png" alt="logo">
+                <ul>
+                    <li>Видеосьемка</li>
+                    <li>Аренда</li>
+                    <li>Новости</li>
+                </ul>
+            </div>
+            <div class="right-footer">
+                <p><strong>Event service &Video Production.<br>Artline Video</strong></p>
+               <div class="ul-flex">
+                    <ul class="media-icons">
+                        <li class="facebook"><a href="#"><img src="/css/facebook.png"></a></li>
+                        <li class="instagram"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                    <ul class="information">
+                        <li><a href="#">info@artline-video.com.ua</a></li>
+                        <li>+38 (067)112-15-14</li>
+                        <li>+38 (093)011-52-73</li>
+                    </ul>
+               </div>
+            </div>
+        </div>
+
     @yield ('js')
 </body>
 </html>
